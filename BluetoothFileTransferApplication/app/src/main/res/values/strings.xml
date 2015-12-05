@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BluetoothFileTransfer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">About Developer</string>
+</resources>

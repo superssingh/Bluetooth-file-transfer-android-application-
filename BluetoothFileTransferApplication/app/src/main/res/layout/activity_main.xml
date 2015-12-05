@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="#002145">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/FilePath"
+        android:layout_gravity="center_horizontal"
+        android:textSize="12dp"
+        android:layout_marginBottom="20dp"
+        android:theme="@android:style/Animation.Translucent"
+        android:textColor="#2fffff"
+        android:padding="15dp"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:id="@+id/opendailog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/BTNquit"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Select File"
+        android:padding="15dp"
+        android:layout_margin="5dp"
+        android:textColor="#edebff"
+        android:background="#0bba1c" />
+
+    <Button
+        android:id="@+id/sendBtooth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/BTNquit"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Send"
+        android:padding="15dp"
+        android:layout_margin="5dp"
+        android:textColor="#edebff"
+        android:background="#113b6a" />
+
+    <Button
+        android:id="@+id/BTNquit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:onClick="exit"
+        android:layout_margin="50dp"
+        android:text="Quit"
+        android:layout_gravity="center_horizontal"
+        android:padding="15dp"
+        android:background="#bc2745"
+        android:textColor="#29faf5" />
+
+</LinearLayout>
