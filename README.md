@@ -8,9 +8,5 @@ First add below permissions in AndroidManifest.xml
 [3] "android.permission.BLUETOOTH"                                      
 [4] "android.permission.BLUETOOTH_ADMIN"
 
-After that you need only 3 file for that project.    
-one MainActivity.java and two xml files (activity_main.xml and dailoglayout.xml). 
-That's it. 
-
 Enjoy.... :)
 Happy coding and do cool things.
