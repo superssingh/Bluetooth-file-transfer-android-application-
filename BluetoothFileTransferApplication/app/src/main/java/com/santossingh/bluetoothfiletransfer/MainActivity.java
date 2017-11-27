@@ -215,7 +215,7 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Toast.makeText(this, "**********************************\nDeveloper: www.santossingh.com\n**********************************", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "**********************************\nDeveloper: www.santoshkumarsingh.com\n**********************************", Toast.LENGTH_LONG).show();
             return true;
         }
         return super.onOptionsItemSelected(item);
