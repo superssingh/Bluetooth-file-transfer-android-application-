@@ -188,7 +188,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 //CHECK BLUETOOTH available or not------------------------------------------------
                 if (!found) {
-                    Toast.makeText(this, "Bluetooth han't been found", Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, "Bluetooth not been found", Toast.LENGTH_LONG).show();
                 } else {
                     i.setClassName(packageName, className);
                     startActivity(i);
